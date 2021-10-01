@@ -1,0 +1,13 @@
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.exe
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.deps.json
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.runtimeconfig.json
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.runtimeconfig.dev.json
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.dll
+C:\Users\Mahima\source\repos\Phonebook Console Application\bin\Debug\netcoreapp3.1\Phonebook Console Application.pdb
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.csproj.AssemblyReference.cache
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.AssemblyInfoInputs.cache
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.AssemblyInfo.cs
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.csproj.CoreCompileInputs.cache
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.dll
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.pdb
+C:\Users\Mahima\source\repos\Phonebook Console Application\obj\Debug\netcoreapp3.1\Phonebook Console Application.genruntimeconfig.cache
