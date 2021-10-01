@@ -33,12 +33,34 @@ namespace Phonebook_Console_Application
 
         }
         //Add contact
+        public void AddContact(Contact contact)
 
+        {
+
+            _contacts.Add(contact);
+
+        }
 
         //Display contact
         public void DisplayContact(string number)
         {
-            
+            var contact = _contacts.FirstOrDefault(c => c.Number == number);
+
+            if(contact == null)
+
+            {
+
+                Console.WriteLine("Contact not found");
+
+            }
+
+            else
+
+            {
+
+                DisplayContactDetails(contact);
+
+            }
 
         }
 
@@ -46,7 +68,7 @@ namespace Phonebook_Console_Application
         public void DisplayAllContact() 
         {
         
-        
+            
         
         }
         
