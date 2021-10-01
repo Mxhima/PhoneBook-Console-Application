@@ -34,7 +34,81 @@ namespace Phonebook_Console_Application
             //Operation Outputs
             while (true)
             {
-                
+                switch (UserInput)
+
+                {
+
+                    case "1":
+
+                        Console.WriteLine("Contact Name: ");
+
+                        var name = Console.ReadLine();
+
+                        Console.WriteLine("Contact Number: ");
+
+                        var number = Console.ReadLine();
+
+
+
+                        var newContact = new Contact(name, number);
+
+                        PhoneBook.AddContact(newContact);
+
+                        break;
+
+
+
+                    case "2":
+
+                        Console.WriteLine("Contact number to search: ");
+
+                        var searchNumber = Console.ReadLine();
+
+                        PhoneBook.DisplayContact(searchNumber);
+
+                        break;
+
+
+
+                    case "3":
+
+                        PhoneBook.DisplayAllContact();
+
+                        break;
+
+
+
+                    case "4":
+
+                        Console.WriteLine("Name search phrase: ");
+
+                        var searchPhrase = Console.ReadLine();
+
+                        PhoneBook.DisplayMatchingContact(searchPhrase);
+
+                        break;
+
+
+
+                    case "x":
+
+                        return;
+
+
+
+                    default:
+
+                        Console.WriteLine("Select valid Operation");
+
+                        break;
+
+                }
+
+
+
+                Console.WriteLine("Select the Operation");
+
+                UserInput = Console.ReadLine();
             }
         }
     }
