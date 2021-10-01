@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Mahima\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahima\\source\\repos\\Phonebook Console Application\\Phonebook Console Application.csproj",
+      "projectUniqueName": "E:\\Project\\Hacktoberfest 2021\\pull requests\\01\\PhoneBook-Console-Application\\Phonebook Console Application\\Phonebook Console Application.csproj",
       "projectName": "Phonebook Console Application",
-      "projectPath": "C:\\Users\\Mahima\\source\\repos\\Phonebook Console Application\\Phonebook Console Application.csproj",
-      "packagesPath": "C:\\Users\\Mahima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahima\\source\\repos\\Phonebook Console Application\\obj\\",
+      "projectPath": "E:\\Project\\Hacktoberfest 2021\\pull requests\\01\\PhoneBook-Console-Application\\Phonebook Console Application\\Phonebook Console Application.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Project\\Hacktoberfest 2021\\pull requests\\01\\PhoneBook-Console-Application\\Phonebook Console Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mahima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
