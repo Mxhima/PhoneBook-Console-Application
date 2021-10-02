@@ -67,19 +67,25 @@ namespace Phonebook_Console_Application
         //Display all contacts
         public void DisplayAllContact() 
         {
-        
-            
-        
+
+            DisplayContactsDetails(_contacts);
+
         }
         
 
         //Display matching Contact
         public void DisplayMatchingContact(string Searchphrase)
         {
+            var matchingContacts = _contacts.Where(c => c.Name.Contains(Searchphrase)); 
+            foreach (var contact in matchingContacts)
+            { 
+                DisplayContactDetails(contact); 
+            }
+
 
 
         }
-        
+
 
     }
 }
