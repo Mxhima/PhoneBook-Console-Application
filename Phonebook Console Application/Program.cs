@@ -19,6 +19,8 @@ namespace Phonebook_Console_Application
 
             Console.WriteLine("4 Search for contacts for a given name");
 
+            Console.WriteLine("5 Search for the contacrs ");
+
             Console.WriteLine("Press 'x' to exit");
 
             Console.WriteLine("");
@@ -81,6 +83,16 @@ namespace Phonebook_Console_Application
                     case "4":
 
                         Console.WriteLine("Name search phrase: ");
+
+                        var searchPhrase = Console.ReadLine();
+
+                        PhoneBook.DisplayMatchingContact(searchPhrase);
+
+                        break;
+
+                    case"5"
+                    
+                    Console.WriteLine("Name search phrase: ");
 
                         var searchPhrase = Console.ReadLine();
 
